@@ -21,7 +21,7 @@ def search(update,context):
    
         update.message.reply_text(text)
     except:
-        update.message.reply_text("Sorry, I can not detect any text")
+        update.message.reply_text("ERROR")
     
     
 
