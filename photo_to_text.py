@@ -14,7 +14,7 @@ def search(update,context):
     msg.download("user.jpg")
     
     try:
-        pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = 'https://github.com/Bobur-young-dev/photo_to_text/blob/main/tesseract.exe'
         img = Image.open('user.jpg')
         text = pytesseract.image_to_string(img)
     
