@@ -1,1 +1,1 @@
-worker: python photo_to_text.py
+worker: python oyatbot.py
