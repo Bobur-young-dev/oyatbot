@@ -19,7 +19,7 @@ def search(update,context):
             update.message.reply_html(f'<b>{sura}-sura,{oyat}-oyat</b> :\n <i>{res}</i>')
     except:
         update.message.reply_text("Bunday oyat va sura topilmadi!")
-updater = Updater('1909708408:AAGg8mcutUUtAb0XID_ndTa6_kLIMaMB-cE')
+updater = Updater('TOKEN')
 updater.dispatcher.add_handler(CommandHandler('start',start))
 updater.dispatcher.add_handler(MessageHandler(Filters.text, search))
 updater.start_polling()
